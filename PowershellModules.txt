@@ -1,0 +1,9 @@
+http://patchy.start-automating.com/Downloads
+https://archive.codeplex.com/?p=psam
+https://archive.codeplex.com/?p=pscx
+https://archive.codeplex.com/?p=pseventlogwatcher
+https://archive.codeplex.com/?p=psremoteregistry
+https://archive.codeplex.com/?p=smlets
+https://archive.codeplex.com/?p=psmsi
+https://gallery.technet.microsoft.com/scriptcenter/2d191bcd-3308-4edd-9de2-88dff796b0bc
+https://github.com/proxb/PoshWSUS
