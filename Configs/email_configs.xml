@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<emailConfigs>
+	<Enable>true</Enable>
+	
+	<!-- Email types supports: external or internal -->
+	<Type>internal</Type>
+	
+	<Subject>Downloaded 3rd Party Software and Updates</Subject>
+
+	<internalEmail>
+		<SmtpServer>mail.contoso.com</SmtpServer>
+		<Port>25</Port>
+		<ssl>True</ssl>
+		<From>service@contoso.com</From>
+		<To>firstemail@contoso.com,secondemail@contoso.com</To>
+		<ExchCreds>ExchCreds.xml</ExchCreds>
+	</internalEmail>
+
+	<externalEmail>
+		<Server>smtp.gmail.com</Server>
+		<Port>587</Port>
+		<Username>yourgmail@gmail.com</Username>
+		<Password>yourgmailpassword</Password>
+		<UseSSL>True</UseSSL>	
+		<From>yourgmail@gmail.com</From>
+		<To>yourgmail@gmail.com</To>
+
+	</externalEmail>
+</emailConfigs>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<emailConfigs>
+	<Enable>true</Enable>
+	
+	<!-- Email types supports: external or internal -->
+	<Type>internal</Type>
+	
+	<Subject>Downloaded 3rd Party Software and Updates</Subject>
+
+	<internalEmail>
+		<SmtpServer>mail.s3i.org</SmtpServer>
+		<Port>25</Port>
+		<UseSSL>False</UseSSL>
+		<From>automation@s3i.org</From>
+		<To>tracyr@s3i.org,meyer@s3i.org,carterd@s3i.org,doyleb@s3i.org,wallacec@s3i.org</To>
+		<ExchCreds>ExchCreds.xml</ExchCreds>
+	</internalEmail>
+
+	<externalEmail>
+		<Server>smtp.gmail.com</Server>
+		<Port>587</Port>
+		<Username>yourgmail@gmail.com</Username>
+		<Password>yourgmailpassword</Password>
+		<UseSSL>True</UseSSL>	
+		<From>yourgmail@gmail.com</From>
+		<To>yourgmail@gmail.com</To>
+
+	</externalEmail>
+</emailConfigs>
